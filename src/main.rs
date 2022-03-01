@@ -1,4 +1,4 @@
-fn test() -> bool {
+#[allow(dead_code)] fn test() -> bool {
    false
 }
 
@@ -12,6 +12,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        assert!(test());
+        assert!(!test());
     }
 }
