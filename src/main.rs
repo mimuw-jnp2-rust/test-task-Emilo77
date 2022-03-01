@@ -1,4 +1,5 @@
-#[allow(dead_code)] fn test() -> bool {
+#[allow(dead_code)]
+fn test() -> bool {
    false
 }
 
